@@ -1,9 +1,9 @@
-
+package tarea94;
 
 /**
  * Class Elipse
  */
-public class Elipse extends Cónica {
+public class Elipse extends Conica {
 
   //
   // Fields

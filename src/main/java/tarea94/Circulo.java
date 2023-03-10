@@ -1,9 +1,9 @@
-
+package tarea94;
 
 /**
  * Class Circulo
  */
-public class Circulo extends Cónica {
+public class Circulo extends Conica {
 
   //
   // Fields

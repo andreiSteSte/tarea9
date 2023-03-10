@@ -1,4 +1,6 @@
+package tarea95;
 
+import java.time.LocalDate;
 import java.util.*;
 
 
@@ -21,7 +23,14 @@ public class Persona extends PuestoDeTrabajo {
   //
   // Constructors
   //
-  public Persona () { };
+  public Persona (String nombre, String apellido1, String apellido2, LocalDate fecha, String sexo, int identificador) {
+    this.nombre=nombre;
+    this.apellido1=apellido1;
+    this.apellido2=apellido2;
+    this.fechaDeNacimiento=fecha;
+    this.sexo=sexo;
+    this.identificador=identificador;
+  };
   
   //
   // Methods

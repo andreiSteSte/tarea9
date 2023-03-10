@@ -1,4 +1,4 @@
-
+package tarea9;
 
 /**
  * Class Elipse
@@ -16,7 +16,11 @@ public class Elipse {
   //
   // Constructors
   //
-  public Elipse () { };
+  public Elipse (String color, Float ejeMayor,Float ejeMenor) {
+    this.color=color;
+    this.ejeMayor=ejeMayor;
+    this.ejeMenor=ejeMenor;
+  };
   
   //
   // Methods

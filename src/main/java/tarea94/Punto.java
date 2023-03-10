@@ -1,4 +1,4 @@
-
+package tarea94;
 
 /**
  * Class Punto

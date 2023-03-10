@@ -1,4 +1,4 @@
-
+package tarea9;
 
 /**
  * Class Circulo
@@ -15,13 +15,14 @@ public class Circulo {
   //
   // Constructors
   //
-  public Circulo () { };
+  public Circulo (String color, Float radio) {
+    this.color = color;
+    this.radio=radio;
+  };
   
   //
   // Methods
   //
-
-
   //
   // Accessor methods
   //

@@ -1,4 +1,4 @@
-
+package tarea9;
 
 /**
  * Class Rectangulo
@@ -9,14 +9,18 @@ public class Rectangulo {
   // Fields
   //
 
-  private String Color;
+  private String color;
   private Float base;
   private Float altura;
   
   //
   // Constructors
   //
-  public Rectangulo () { };
+  public Rectangulo (String color, Float base, Float altura) {
+    this.color=color;
+    this.base=base;
+    this.altura=altura;
+  };
   
   //
   // Methods
@@ -32,7 +36,7 @@ public class Rectangulo {
    * @param newVar the new value of Color
    */
   public void setColor (String newVar) {
-    Color = newVar;
+    color = newVar;
   }
 
   /**
@@ -40,7 +44,7 @@ public class Rectangulo {
    * @return the value of Color
    */
   public String getColor () {
-    return Color;
+    return color;
   }
 
   /**

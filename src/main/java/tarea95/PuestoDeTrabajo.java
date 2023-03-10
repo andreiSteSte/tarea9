@@ -1,4 +1,6 @@
+package tarea95;
 
+import java.time.LocalDate;
 import java.util.*;
 
 
@@ -22,8 +24,20 @@ public class PuestoDeTrabajo {
   //
   // Constructors
   //
-  public PuestoDeTrabajo () { };
-  
+  public PuestoDeTrabajo (String nPuesto, LocalDate fechaI, LocalDate fechaFin, float salario, Persona trabajador, Persona jefe, String departamento) {
+    this.nombrePuesto=nPuesto;
+    this.fechaInicio=fechaI;
+    this.fechaFin=fechaFin;
+    this.salario=salario;
+    this.trabajador=trabajador;
+    this.jefe=jefe;
+    this.departamento=departamento;
+
+  };
+
+  public PuestoDeTrabajo() {
+  }
+
   //
   // Methods
   //

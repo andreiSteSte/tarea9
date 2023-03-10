@@ -1,4 +1,4 @@
-
+package tarea9;
 
 /**
  * Class Cuadrado
@@ -15,7 +15,10 @@ public class Cuadrado {
   //
   // Constructors
   //
-  public Cuadrado () { };
+  public Cuadrado (String color, Float lado ) {
+    this.color=color;
+    this.lado=lado;
+  };
   
   //
   // Methods
